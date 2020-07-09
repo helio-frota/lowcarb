@@ -1,7 +1,7 @@
 {
   "name": "lowcarb",
   "version": "0.1.0",
-  "description": "A foo bar thing for now",
+  "description": "A feature-basic benchmark.js wrapper to keep you with the pump without muscle loss.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
