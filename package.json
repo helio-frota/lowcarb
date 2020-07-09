@@ -6,7 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["low", "carb"],
+  "keywords": [
+    "low",
+    "carb"
+  ],
   "author": "Helio Frota",
-  "license": "MIT"
+  "license": "MIT",
+  "bin": {
+    "lowcarb": "bin/index.js"
+  },
+  "dependencies": {
+    "beautify-benchmark": "^0.2.4",
+    "benchmark": "^2.1.4"
+  }
 }
