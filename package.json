@@ -18,5 +18,11 @@
   "dependencies": {
     "beautify-benchmark": "^0.2.4",
     "benchmark": "^2.1.4"
-  }
+  },
+  "homepage": "https://github.com/helio-frota/lowcarb#lowcarb",
+  "repository": {
+    "type": "git",
+    "url": "helio-frota/lowcarb"
+  },
+  "bugs": "https://github.com/helio-frota/lowcarb/issues"
 }
