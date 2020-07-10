@@ -10,6 +10,11 @@
     "low",
     "carb"
   ],
+  "files": [
+    "bin",
+    "lib",
+    "templates"
+  ],
   "author": "Helio Frota",
   "license": "MIT",
   "bin": {

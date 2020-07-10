@@ -31,9 +31,11 @@ const run = (fileNames) => {
   );
 };
 
-mkdirp.sync(join(cwd, BENCH));
 const benchDIR = join(cwd, BENCH);
-copyTemplate('workout.js', join(benchDIR, 'workout.js'));
-copyTemplate('delete-me-later.js', join(benchDIR, 'delete-me-later.js'));
+if (!fs.existsSync(benchDIR)) {
+  mkdirp.sync(benchDIR);
+  copyTemplate('workout.js', join(benchDIR, 'workout.js'));
+  copyTemplate('delete-me-later.js', join(benchDIR, 'delete-me-later.js'));
+}
 
 run(fs.readdirSync(join(cwd, BENCH)));
