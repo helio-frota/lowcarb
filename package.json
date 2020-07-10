@@ -1,6 +1,6 @@
 {
   "name": "lowcarb",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A feature-basic benchmark.js wrapper to keep you with the pump without muscle loss.",
   "main": "index.js",
   "scripts": {
