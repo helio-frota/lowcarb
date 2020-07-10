@@ -13,7 +13,7 @@ Add this to `package.json`:
 ```js
 "scripts": {
   "lowcarb": "lowcarb"
-}
+},
 ```
 
 **Required** to create benchmark directory:
