@@ -2,7 +2,6 @@
 
 const fs = require('fs')
 const { join } = require('path')
-const mkdirp = require('mkdirp')
 const spawn = require('child_process').spawn
 const cwd = process.cwd()
 const exe = process.argv[0]
@@ -33,7 +32,7 @@ const run = (fileNames) => {
 
 const benchDIR = join(cwd, BENCH)
 if (!fs.existsSync(benchDIR)) {
-  mkdirp.sync(benchDIR)
+  fs.mkdirSync(benchDIR)
   copyTemplate('workout.js', join(benchDIR, 'workout.js'))
   copyTemplate('delete-me-later.js', join(benchDIR, 'delete-me-later.js'))
 }
