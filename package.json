@@ -4,7 +4,7 @@
   "description": "A feature-basic benchmark.js wrapper to keep you with the pump without muscle loss.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard"
   },
   "keywords": [
     "low",
@@ -30,5 +30,8 @@
     "type": "git",
     "url": "helio-frota/lowcarb"
   },
-  "bugs": "https://github.com/helio-frota/lowcarb/issues"
+  "bugs": "https://github.com/helio-frota/lowcarb/issues",
+  "devDependencies": {
+    "standard": "^14.3.4"
+  }
 }

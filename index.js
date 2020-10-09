@@ -1,1 +1,1 @@
-module.exports = exports = require('./lib/lc');
+module.exports = exports = require('./lib/lc')
